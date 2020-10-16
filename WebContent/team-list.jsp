@@ -12,6 +12,12 @@
 <header>
 	All Teams
 </header>
+	<nav>
+		<a href="index.html">Add a Team</a>
+		<a href="addGameServlet">Add a Game</a>
+		<a href="viewAllTeamsServlet">View the team list</a> 
+		<a href="viewAllHomeGamesServlet">View all the Games</a>
+	</nav>
 <div class="main">
 	<form method="post" action="navServlet">
 		<table>
@@ -35,7 +41,6 @@
 		</div>
 		<p>
 			<input type="submit" value="edit" name="doThisToTeam">
-			<input type="submit" value="delete" name="doThisToTeam">
 			<input type="submit" value="add" name="doThisToTeam">
 		</p>
 	</form>

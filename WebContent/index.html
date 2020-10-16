@@ -6,18 +6,19 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>Add Team</header>
-<div class="main">
-	<form action="addTeamServlet" method="post">
-		Name: <input type="text" name="teamName"> 
-		City: <input type="text" name="city">
-		Players <input type="text" name="players"> 
-		<input type="submit" value="Add Team">
-	</form>
-
-	<p>
-		<a href="viewAllTeamsServlet">View the team list</a>
-	</p>
-</div>
+	<header>Add Team</header>
+	<nav>
+		<a href="index.html">Add a Team</a>
+		<a href="addGameServlet">Add a Game</a>
+		<a href="viewAllTeamsServlet">View the team list</a> 
+		<a href="viewAllHomeGamesServlet">View all the Games</a>
+	</nav>
+	<div class="main">
+		<form action="addTeamServlet" method="post">
+			Name: <input type="text" name="teamName"> City: <input
+				type="text" name="city"> Players <input type="text"
+				name="players"> <input type="submit" value="Add Team">
+		</form>
+	</div>
 </body>
 </html>

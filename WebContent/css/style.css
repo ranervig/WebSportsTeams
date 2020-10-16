@@ -18,6 +18,28 @@ header {
 	color: FloralWhite;
 }
 
+nav {
+	padding: 10px;
+	margin: 8px auto;
+	width : 75%;
+	display : flex;
+	justify-content: center;
+	background-color: ForestGreen;
+	display: flex;
+	width: 50%;
+}
+
+nav a {
+	color: FloralWhite;
+	text-decoration: none;
+	padding: 0 20px
+}
+
+nav a:hover {
+	color: ForestGreen;
+	background-color: FloralWhite;
+}
+
 input[type=text] {
 	padding: 15px;
 	margin: 10px 0;
@@ -69,4 +91,24 @@ tr:nth-child(even) {
 	margin: 10px auto;
 	color: white;
 	background-color: Red;
+}
+
+.card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card .win {
+	font-size: 2em;
+	color: green;
+}
+
+.card .lose {
+	font-size: 2em;
+	color: red;
+}
+
+.card .tie {
+	font-size: 2em;
 }
